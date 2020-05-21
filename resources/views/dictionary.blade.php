@@ -18,7 +18,7 @@
         <div class="form-group">
             <label>
                 <input type="text" class="form-control" name="keyword">
-                <?php if (isset($msg) {
+                <?php if (isset($msg)) {
                     echo $msg;
                 } ?>
             </label>

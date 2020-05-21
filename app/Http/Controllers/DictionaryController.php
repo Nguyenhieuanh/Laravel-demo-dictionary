@@ -11,7 +11,9 @@ class DictionaryController extends Controller
         $words = [
             'one' => 'Mot',
             'two' => 'Hai',
-            'three' => 'Ba'
+            'three' => 'Ba',
+            'four' => 'Bốn',
+            'five' => 'Năm'
         ];
         $keyword = $request->keyword;
         foreach ($words as $key => $word) {

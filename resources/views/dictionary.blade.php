@@ -13,7 +13,7 @@
     <div class="form-group mt-5">
         <h3>DICTIONARY</h3>
     </div>
-    <form action="" method="post">
+    <form method="post">
         @csrf
         <div class="form-group">
             <label>

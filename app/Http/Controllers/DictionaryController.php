@@ -16,7 +16,7 @@ class DictionaryController extends Controller
         $keyword = $request->keyword;
         foreach ($words as $key => $word) {
             if ($keyword == $key) {
-                $msg = $keyword . ':' . $word;
+                $msg = $keyword . ' : ' . $word;
                 return view('dictionary', compact('msg'));
             }
         }
